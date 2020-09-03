@@ -1,0 +1,30 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 998 229.3">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 200px;
+        fill: #231f20;
+        font-family: dvcc;
+        letter-spacing: 0.08em;
+      }
+
+      .cls-2, .cls-3 {
+        fill: none;
+        stroke-miterlimit: 10;
+        stroke-width: 18px;
+      }
+
+      .cls-2 {
+        stroke: #2f2f2e;
+      }
+
+      .cls-3 {
+        stroke: #2f2f2f;
+      }
+    </style>
+  </defs>
+  <title>Drishya Logo - Black - BG</title>
+  <text class="cls-1" transform="translate(46.58 179.3)">drishya.ai</text>
+  <path class="cls-2" d="M622.29,104.39s25.08-55,81-29.8" transform="translate(0 -9)"/>
+  <path class="cls-3" d="M798.78,99.07S828.4,46.42,882,76.22" transform="translate(0 -9)"/>
+</svg>
