@@ -15,10 +15,10 @@ $(function () {
         var scroll = $(window).scrollTop();
         if (scroll < 20) {
             $(".navbar-area").removeClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/duckling-circle-grey.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/logo.svg");
         } else {
             $(".navbar-area").addClass("sticky");
-            $(".navbar .navbar-brand img").attr("src", "assets/images/duckling-circle-grey.png");
+            $(".navbar .navbar-brand img").attr("src", "assets/images/logo.svg");
         }
     });
 
