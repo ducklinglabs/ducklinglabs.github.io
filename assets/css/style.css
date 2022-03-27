@@ -769,14 +769,15 @@ p {
   width: 100%;
   height: 100%;
   z-index: -1; }
-
+.sub-hero-content{
+  padding-top: 50px!important; }
 .header-hero-content {
   padding-top: 180px; }
   @media (max-width: 767px) {
     .header-hero-content {
       padding-top: 100px; } }
   .header-hero-content .header-sub-title {
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 300;
     color: #000; }
     @media (max-width: 767px) {
@@ -786,7 +787,7 @@ p {
       .header-hero-content .header-sub-title {
         font-size: 30px; } }
   .header-hero-content .header-title {
-    font-size: 38px;
+    font-size: 28px;
     font-weight: 700;
     color: #000; }
     @media (max-width: 767px) {
@@ -1516,3 +1517,74 @@ p {
   display: none; }
   .back-to-top:hover {
     color: #fff; }
+
+.custom-container {
+  padding: 0px 100px;
+}
+
+.banner-image {
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  margin: auto;
+}
+
+.header-button {
+  margin-top: 50px;
+}
+/* button styles !!!YOU NEED THEM 
+!!!ALSO YOU NEED TO ADD FONTWESOME */
+.effect {
+  text-align: center;
+  display: inline-block;
+  position: relative;
+  text-decoration: none!important;
+  color: #000;
+  text-transform: capitalize;
+  /* background-color: - add your own background-color */
+  font-family: "Roboto", sans-serif;
+  /* put your font-family */
+  font-size: 18px;
+  padding: 20px 0px;
+  width: 150px;
+  border-radius: 6px;
+  overflow: hidden;
+  border-color: #000;
+  border-width: 1px;
+  border-style: solid;
+}
+
+/* effect-5 styles */
+.effect.effect-5 {
+  transition: all 0.2s linear 0s;
+}
+.sms:before {
+  content: "\f086";
+}
+.mail:before {
+  content: "\f0e0";
+}
+.effect.effect-5:before {
+  font-family: FontAwesome;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0px;
+  height: 100%;
+  width: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 0 50% 50% 0;
+  transform: scale(0, 1);
+  transform-origin: left center;
+  transition: all 0.2s linear 0s;
+}
+.effect.effect-5:hover {
+  text-indent: 30px;
+}
+.effect.effect-5:hover:before {
+  transform: scale(1, 1);
+  text-indent: 0;
+}
