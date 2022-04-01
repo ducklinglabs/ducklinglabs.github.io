@@ -1529,6 +1529,21 @@ p {
 .custom-container {
   padding: 0px 100px;
 }
+@media (max-width: 767px) {
+    .custom-container {
+      padding: 0px 20px;
+  }
+}
+@media (max-width: 576px) {
+    .custom-container {
+      padding: 0px 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .custom-container {
+      padding: 0px 20px;
+  }
+}
 .company-area {
   background: #fff;
   padding: 50px 0px;
@@ -1638,6 +1653,28 @@ p {
   min-height: 100vh;
   height: 100%
 }
+
+@media (max-width: 767px) {
+  #home {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #home {
+    min-height: calc(100vh - 50vw);
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  #home {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 576px) {  
+  .onlyDesktop {
+    display: none;
+}
+}
 .goto-next {
     border: 0;
     bottom: 0;
@@ -1652,7 +1689,22 @@ p {
     width: 10em;
     z-index: 1;
 }
+@media (max-width: 576px) {  
+  .goto-next {
+    bottom: -50px;
+  }
+}
 
+.services-bg-image {
+  top: 100px;
+  bottom: 0;
+  margin: auto;
+}
+@media (max-width: 576px) {  
+  .services-bg-image {
+    position: absolute;
+  }
+}
 .goto-next:before {
     background-image: url(../images/arrow.svg);
     background-position: center center;
